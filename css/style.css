@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    width: 21rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+    background: hsl(216, 50%, 16%);
+}
+
+.container h2{
+    padding-top: 20px;
+    color: #a8a8a8;
+    font-family: "outfit" sans-serif;
+}
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.currency .icon {
+    height: 1.2rem;
+    width: 0.8rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.days{
+    width: 1.1rem;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 75px;
+}
+
+.days2{
+  width: 300px;  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.container img{
+    width: 100%;
+    height: 100%;
+}
+
+.details .icon{
+    margin-right: 0.4rem;
+}
+
+.currency p {
+    color: hsl(178, 100%, 50%);
+  }
+  
+  .days p {
+    color: hsl(215, 51%, 70%);
+  }
+
+  
+
+  hr{
+    border: 1px solid hsl(215, 32%, 27%) ;
+  }
+.profile{
+    padding-top: 15px;
+    display: flex;
+    color: white;
+    
+    
+}
+
+.profile img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
