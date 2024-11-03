@@ -97,5 +97,11 @@ body{
     border-radius: 75px;
 }
 
+@media (max-width: 480px){
+    .container{
+        width: 90%;
+    }
+}
+
 
 
